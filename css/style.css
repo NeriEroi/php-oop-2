@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.container,
+.container_2 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .buyer_1,
+.container .buyer_2,
+.container_2 .nike,
+.container_2 .converse {
+    width: 30%;
+    height: 55%;
+    border: 3px solid lime;
+    padding: 20px;
+}
+
+.buyer_1 {
+    margin-right: 10px;
+}
+
+.container .buyer_1 h2,
+.container .buyer_2 h2,
+.container_2 .nike h2,
+.container_2 .converse h2 {
+    padding: 2px;
+}
